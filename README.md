@@ -6,6 +6,6 @@ Most effective alarm.
 
 Video: https://youtu.be/U7agpCuFAGI
 
-Requirments:
+Requirements:
 ---
 * win10toast python Module
