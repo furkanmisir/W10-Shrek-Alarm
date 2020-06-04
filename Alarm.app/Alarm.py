@@ -38,7 +38,7 @@ while True:
     pc_time = time.localtime(time.time())
     if int(a_hour) == pc_time.tm_hour and int(a_min) == pc_time.tm_min:
         print(a_comment, ", ", a_hour, ":", a_min)
-        toaster.show_toast(a_comment, a_time, icon_path="C:/Users/bahce/Documents/GitHub/Python-Basics/Alarm.app/shrek.ico", duration=10)
+        toaster.show_toast(a_comment, a_time, icon_path="Alarm.app/shrek.ico", duration=10)
         #playsound('/alarm.mp3' )
         os.system("start Alarm.app/shrek-alarm.mp4")
         break
